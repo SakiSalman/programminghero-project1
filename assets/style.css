@@ -149,3 +149,135 @@ section.my-plan .content-wrapper h2 {
 .iconbox-wrapper .iconbox p {
     color: #737272;
 }
+
+.positive-mind .conent-wrapper {
+    padding: 100px 40px;
+    background-image: url(../images/Gradiant-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.positive-mind .conent-wrapper h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+
+.positive-mind .conent-wrapper button {
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.positive-mind .conent-wrapper button:hover {
+    background-color: #0b77b8;
+    color: rgb(255, 255, 255);
+
+}
+
+/* footer css start */
+footer {
+    background: #121212;
+    padding: 80px 30px;
+    color: #fff;
+}
+
+.contact_information {
+    width: 50%;
+}
+
+.contact_information h2 {
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.contact_information p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact_information ul {
+    list-style: none;
+}
+
+.social_wrapper li {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.fa-facebook-f {
+    color: #006AFF;
+}
+
+.fa-twitter {
+    color: #00A1F1;
+}
+
+.fa-youtube {
+    color: #FF0000;
+}
+
+.social_wrapper li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    column-rule-color: default;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.subscribe form input[type="email"] {
+    padding: 10px 20px;
+    width: 84%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+    margin-right: 10px;
+    background: transparent;
+    margin: 20px 0px;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    background: #005FAC;
+    padding: 16px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    margin: auto;
+}
